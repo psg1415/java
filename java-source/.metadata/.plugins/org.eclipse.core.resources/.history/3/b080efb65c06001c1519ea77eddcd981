@@ -1,17 +1,17 @@
 package chapter8;
 
 public class CustomerTest {
-	public static void main(String[] args) {
-		System.out.println("-------------- SILVER 老馆 绊按 --------------");
-		Customer customerLee = new Customer(); // 利赋伏 1%, SILVER
+	public static void main(String[]args) {
+		System.out.println("----------SILVER 老馆 绊按 -----------");
+		Customer customerLee = new Customer(); //利赋氟 1%, SILVER
 		customerLee.setCustomerID(1000);
 		customerLee.setCustomerName("老馆绊按捞抚1");
 		customerLee.calcPrice(10000);
 		customerLee.calcPrice(20000);
 		customerLee.showInfo();
 		
-		System.out.println("-------------- VIP 绊按 --------------");
-		VIPCustomer2 customerKim = new VIPCustomer2(); // 利赋伏 5%, VIP, 惑前 且牢啦 10%
+		System.out.println("----------vip 绊按 -----------");
+		VIPCustomer2 customerKim = new VIPCustomer2(); //利赋伏 5%, 惑前 且牢啦 10%
 		customerKim.setCustomerID(1001);
 		customerKim.setCustomerName("VIP 绊按捞抚2");
 		customerKim.setAgentID(1000);

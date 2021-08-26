@@ -1,9 +1,9 @@
 package chapter8;
 
-public class VIPCustomer2 extends Customer {
+public class VIPCustomer2 extends Customer{
 	private double bonusRatio;
-	private double discountRatio; // 상품 할인율 10%
-	private int agentID; // 전문 상담원 ID 
+	private double discountRatio; //상품 할인율 10%
+	private int agentID; //전문 상담원 ID
 	
 	public VIPCustomer2() {
 		bonusRatio = 0.05;
