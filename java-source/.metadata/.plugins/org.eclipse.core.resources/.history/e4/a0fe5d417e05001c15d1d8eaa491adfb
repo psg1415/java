@@ -1,0 +1,9 @@
+package study;
+
+public class Ex2Test {
+	public static void main(String[]args) {
+		for(int studentNum = 0; studentNum < 40; studentNum++) {
+			
+		}
+	}
+}

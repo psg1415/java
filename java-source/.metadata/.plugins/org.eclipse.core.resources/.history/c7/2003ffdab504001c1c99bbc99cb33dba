@@ -1,0 +1,6 @@
+package chapter6;
+
+public class StaticEx1 {
+	public static int num = 100;
+	
+}

@@ -1,0 +1,8 @@
+package chapter7_2;
+
+public class Student {
+	int studenetID; //학번
+	String studentName; //이름
+	
+	public Student()
+}

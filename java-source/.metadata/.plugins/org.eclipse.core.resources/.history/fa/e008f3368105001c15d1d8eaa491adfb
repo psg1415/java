@@ -1,0 +1,17 @@
+package study;
+
+import chapter7.Student;
+
+public class Ex2 {	
+	public static void main(String[]args) {
+		Student[] list = new Student[40];
+		for(studentNum = 1; studentNum < 40; studentNum++) {
+			int studentNum1 = studentNum;
+			}
+		
+		for(roomNum1 = 0; roomNum1 < 9; roomNum1++) {
+			int roomNum1 = studentNum % 10;			
+		}
+		System.out.println("학생" + studentNum + ", 방번호" + roomNum1 + "번");
+	}
+}

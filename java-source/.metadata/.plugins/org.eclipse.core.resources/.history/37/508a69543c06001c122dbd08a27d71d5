@@ -1,0 +1,9 @@
+package chapter8;
+
+public class Customer {
+	int CustomerID; //°í°´¹øÈ£
+	String CustomerName; //°í°´ÀÌ¸§
+	String CustomerGrade; //°í°´ µî±Þ
+	int bonusPoint;
+	double bonusRatio;
+}

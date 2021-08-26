@@ -1,0 +1,25 @@
+package chapter5;
+
+public class Person {
+	int age;
+	String name;
+	boolean isMarried;
+	int children;
+	
+	public Person() {
+		System.out.println("생성자 호출");
+	} //기본생성자가 없으면 인스턴스 생성 불가 X
+	// 없으면 컴파일할때 자도응로 추가
+	
+	public Person(int age, String name, boolena isMarried, int children) {
+		this.age = age;
+	}
+	
+	public void showInfo() {
+		String isMarriedStr = isMarried?"결혼":"미혼";
+		System.out.println("나이 = " + age);
+		System.out.println("이름 = " + name);
+		System.out.println("결혼 여부 = " + isMarriedStr);
+		System.out.println("자녀 수 = " + children);
+	}
+}

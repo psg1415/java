@@ -1,0 +1,9 @@
+package chapter7_1;
+
+import java.util.ArrayList;
+
+public class ArrayEx10 {
+	public static void main(String[]args) {
+		java.util.ArrayList<Book> library = new java.util.ArrayList <Book>();
+	}
+}

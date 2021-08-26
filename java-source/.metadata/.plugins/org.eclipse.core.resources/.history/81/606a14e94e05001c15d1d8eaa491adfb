@@ -1,0 +1,25 @@
+package chapter6_1;
+
+public class StudentEx {
+	static int serialNum;
+	int studentID;
+	int studentCard;
+	
+	public StudentEx() { 
+		studentID = ++serialNum;
+	}
+	
+	public int getSerialNum() {
+		return serialNum;
+	}
+	
+	public int getStudentID() {
+		return studentID;
+	}
+	
+	public int getStudentCard() {
+		return studentID + 100;
+	}
+
+
+}

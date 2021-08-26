@@ -1,0 +1,10 @@
+package chapter8;
+
+public class CustomerTest {
+	public static void main(String[]args) {
+		Customer customerLee = new Customer(); //적립륙 1%, SILVER
+		customerLee.setCustomerID(1000);
+		customerLee.setCustomerName("일반고객이름1");
+		customerLee.calcPrice(10000);
+	}
+}

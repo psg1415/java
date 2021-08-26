@@ -1,0 +1,12 @@
+package chapter8;
+
+public class CustomerTest {
+	public static void main(String[]args) {
+		Customer customerLee = new Customer(); //Àû¸³·ú 1%, SILVER
+		customerLee.setCustomerID(1000);
+		customerLee.setCustomerName("ÀÏ¹Ý°í°´ÀÌ¸§1");
+		customerLee.calcPrice(10000);
+		
+		customerLee.showInfo();
+	}
+}

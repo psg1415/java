@@ -1,0 +1,17 @@
+package chapter5;
+
+public class Student {
+	//멤버 변수
+	int studentID;
+	int grade;
+	char gender;
+	
+	String studentName;
+	String address;
+	
+	Subject subject;
+	
+	public Student() { //생성자
+		
+	}
+}

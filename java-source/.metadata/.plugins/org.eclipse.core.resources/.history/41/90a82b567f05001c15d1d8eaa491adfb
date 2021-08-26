@@ -1,0 +1,14 @@
+package study;
+
+public class Ex2 {	
+	public static void main(String[]args) {
+		for(studentNum = 1; studentNum <= 40; studentNum++) {
+			int studentNum;
+			}
+		
+		for(roomNum = 0; roomNum <= 9; foomNum++) {
+			int roomNum % 4;
+		}
+		System.out.println("학생" + studentNum + ", 방번호" + roomNum + "번");
+	}
+}

@@ -1,0 +1,16 @@
+package chapter6_1;
+
+public class StudentTest6 {
+	public static void main(String[]args) {
+		//학생 -> 생성 -> 학번이 자동 증감(serialNum - static)
+		//학번은 자동 증가하고 발급 -> 발급 된 시점의 학번이 계속 유지
+		Student3 st1 = new Student3(); //1
+		Student3 st2 = new Student3(); //2
+		Student3 st3 = new Student3(); //3
+		System.out.println("st1 학번 = " + st1.getStudentID() + "st1 학생카드 = " + st1.getStudentCard());
+		System.out.println("st2 학번 = " + st2.getStudentID() + "st2 학생카드 = " + st2.getStudentCard());
+		System.out.println("st3 학번 = " + st3.getStudentID() + "st3 학생카드 = " + st3.getStudentCard());
+		
+	}
+
+}
