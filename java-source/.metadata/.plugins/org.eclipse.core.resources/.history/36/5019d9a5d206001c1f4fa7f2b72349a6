@@ -1,0 +1,8 @@
+package chapter8_1;
+
+public class extendsTest {
+	public static void main(String[]args) {
+		D d = new D();
+		C c = new C();
+	}
+}

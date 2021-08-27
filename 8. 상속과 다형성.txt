@@ -47,10 +47,84 @@ VIPCustomer2 생성자 - 자식 클래스의 인스턴스가 생성
 
 private -> 정보은닉 -> protected
 
+super
+	1) 부모를 부르는 예약어
+			부모 인스턴스의 주소, 생성자 메서드
+
+
+P247 - 1분복습
+1) 하위클래스가 생성될때는 상위클래스의 "생성자"가 먼저 호출
+2) super();
+3) super();
+
 2. 상속에서 클래스 생성과 형 변환
+P248
+Customer vc = new VIPCustomer(); --> OK
+VIPCustomer vip = new Customer(); --> NOT OK
+
+형변환된 vc가 가리키는 곳
+Customer vc = new VIPCustomer(); --> OK
+VIPCustomer에서 접근 가능한 멤버변수와 메서드는 Customer에 정의되어 있는 것으로 한정
+
+
+업캐스팅(하위 -> 상위 형변환)
+
+포유류(Mammal) -- 영장류(Primate) - 인간(Human)
+							 -- 호랑이(Tiger)
+
+Primate aHuman = new Human();
+(Human은 Primate의 모든 속성과 메서드를 소유 + a(Human에만 있는 것))
+
 3. 메서드 오버라이딩
+		상위클래스의 정의한 메서드를 하위클래스에서 재정의
+		조건) 반환형, 메서드 이름, 매개변수 갯수, 매개변수 자료형이 모두 같아야 한다
+
+		조건의 실수를 방지하기 위해서 애노테이션
+		@Override -> 맞지 않는 재정의 메서드는 오류 발생
+
+		@FunctionalInterface -> 람다
+
 5. 다형성 활용하기
+		하위클래스가 상위클래스 인스턴스로 변환
+		클래스에 정의 되어 있는 멤버 변수 -> 인스턴스 생성시에
+		힙에 각 자료형 만큼 새로 생성
+
+		멤버 변수는 -> 각 인스턴스 마다 독립적으로 값이 대입되므로
+		인스턴스 생성시 독립된 공간으로 생성
+
+		메서드 -> 멤버 변수를 이용하여 기능을 수행
+					 -> 소스 자체가 변경 되지 않는다(외부에 입력된 데이터를 이용)
+
+
+		Customer vc = new VIPCustomer();
+		멤버변수와 메서드는 -> Customer에 정의된 범위 내에서만 호출
+		호출되는 메서드는 생성된 인스턴스에 따라서 호출
+
+		재정의된 calcPrice -> 현재 생성된 인스턴스인 VIPCustomer에 정의된 calcPrice
+
+		Customer vc = new VIPCustomer();
+		vc.calcPrice - 1) Customer 2) VIPCustomer
+
+다형성
+	- 하나의 코드가 여러 자료형으로 구현되어 실행되는 것을 말합니다
+		(상속관계)
+
+		IS-A
+		Animal
+			- Human -> Animal 보다 구체적, 추가 메서드, 속성
+					Human 인스턴스, Animal 인스턴스
+			- Tiger -> Animal 보다 구체적, 추가 메서드, 속성
+					Tiger 인스턴스, Animal 인스턴스
+			- Eagle -> Animal 보다 구체적, 추가 메서드, 속성
+					Eagle 인스턴스, Animal 인스턴스
+
+
+		instanceof
+
+
+
 6. 다운캐스팅과 instanceof
+		상위 클래스 형 -> 하위 클래스형으로 형변환 -> 다운 캐스팅
 
 
 
@@ -60,4 +134,18 @@ private -> 정보은닉 -> protected
 하위 클래스의 생성자가 다음에 생성
 
 
-다형성 
+다형성
+
+
+Gold 그룹
+제품 할인 10%
+포인트 적립율 2%
+전문상담원X
+
+P278
+Q1. extends
+Q2. super();
+Q3. 메서드 오버라이드
+
+하위 클래스의 기본생성자
+super();
