@@ -1,0 +1,8 @@
+package chapter10_2;
+
+public interface Calc {
+	/*
+	 * 인터페이스는 only 추상 메서드 -> 알아서 컴파일러가 추가(예전)
+	 */
+	int add(int num1, int num2); //public abtract 자동 컴파일러가 추가해 준다
+}

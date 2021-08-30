@@ -1,0 +1,8 @@
+package chapter9;
+
+public class ComputerTest {
+	public static void main(String[]args) {
+		//Computer c1 = new Computer();
+		Desktor c2 = new Desktop();
+	}
+}

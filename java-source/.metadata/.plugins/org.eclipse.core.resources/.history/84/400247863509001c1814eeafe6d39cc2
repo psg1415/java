@@ -1,0 +1,10 @@
+package chapter9;
+
+public class ComputerTest {
+	public static void main(String[]args) {
+		//Computer c1 = new Computer();
+		Desktop c2 = new Desktop();
+		//Notebook c3 = new Notebook();
+		Tablet c3 = new Tablet();
+	}
+}

@@ -1,0 +1,18 @@
+package chapter9_3;
+
+public class Player {
+	PlayerLevel level;
+	
+	PlayerLevel getLovel() {
+		return level;
+	}
+	
+	void upgradeLever(PlayerLevel level) {
+		thes.level = level;
+	}
+	
+	void play(int num) {
+		level.go(num);
+	}
+
+}

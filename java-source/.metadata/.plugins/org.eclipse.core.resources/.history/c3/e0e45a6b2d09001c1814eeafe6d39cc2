@@ -1,0 +1,10 @@
+package chapter9;
+/*
+ * monitor, keyboard, cpu - 컴퓨터의 공통적인 구성요소(각 기기별로 다르게 구현되는)
+ */
+
+public abstract class Computer {
+	abstract void monitor();
+	abstract void keyboard();
+	abstract void cpu();
+}
