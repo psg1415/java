@@ -8,6 +8,7 @@ public class SchedulerTest {
 		System.out.println("R - 순서대로 배분");
 		System.out.println("L - 짧은 대기열 찾아 배분");
 		System.out.println("P - 우선순위에 따라서 배분");
+		System.out.println("A - 상담원이 가져가는 방식");
 		
 		 /* 
 		  *  1바이트 문자 1개 
@@ -21,6 +22,8 @@ public class SchedulerTest {
 			scheduler = new LeastJob();
 		} else if (ch == 'P') {
 			scheduler = new PriorityAllocation();
+		} else if (ch == 'A' || ch == 'a') {
+			scheduler = new AgentGetCall();
 		}
 		
 		scheduler.getNextCall();

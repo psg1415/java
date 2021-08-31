@@ -1,7 +1,0 @@
-package chapter5;
-
-public class Man {
-	public static void main(String[]args) {
-		Man man1 =  
-	}
-}
