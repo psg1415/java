@@ -3,4 +3,9 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="chapter8_1.Eagle"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+    <fullyQualifiedTypeName name="chapter8_2.ClassEx1"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+    <fullyQualifiedTypeName name="chapter12_3.linkedlist.MemberLinkedList"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="chapter12_3.Member"/>
 </qualifiedTypeNameHistroy>
