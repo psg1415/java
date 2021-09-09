@@ -114,3 +114,14 @@ P512
     Serializble -> 인스턴스 전체를 저장
 
     Externalizable 인터페이스
+
+
+7. 기타
+    1) File 클래스
+    2) RandomAccessFile 클래스
+        - 파일 출력, 입력을 동시에 할 수 있는 클래스
+
+
+    EOF -> End Of File
+
+  
