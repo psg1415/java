@@ -99,6 +99,7 @@ P512
     BufferedReader, BufferedWriter -> 문자 단위 스트림에 버퍼를 제공
 
     DataInputStream, DataOutputStream -> 자료형 그 자체로 데이터를 저장, 읽을수 있게 해주는 보조 스트림
+    -> 데이터를 읽을때, 입력한 순서대로 읽어야 하고, 입력한 자료형에 맞는 메서드를 호출
 
     ObjectInputStream, ObjectOutStream -> 인스턴스를 상태 그대로 저장, 읽을때
 
@@ -113,8 +114,11 @@ P512
 
     Serializble -> 인스턴스 전체를 저장
 
-    Externalizable 인터페이스
 
+    Externalizable 인터페이스
+    555 17~25
+    558
+    RanodmAccesFile
 
 7. 기타
     1) File 클래스
@@ -124,4 +128,17 @@ P512
 
     EOF -> End Of File
 
-  
+P545 - 12~15
+
+
+P562
+Q1.
+Q2. InputStreamREader
+
+
+Q4. 보조스트림
+Q5. 직렬화
+Q6. Serializable, Externalizable
+
+
+학점산출프로그램

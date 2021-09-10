@@ -10,7 +10,7 @@ public class Student implements Serializable {
 	
 	private int studentID;
 	private String name;
-	private int age;
+	transient private int age;
 	
 	public Student(int studentID, String name, int age) {
 		this.studentID = studentID;
