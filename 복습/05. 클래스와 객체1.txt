@@ -130,4 +130,4 @@
 6. 참조 자료형
 
 7. 정보 은닉
-    setter
+    setter / getter 

@@ -6,6 +6,6 @@ public class Subject {
 	
 	public Subject(String nm, int s) {
 		name = nm;
-		score
+		score = s;
 	}
 }
