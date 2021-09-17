@@ -1,6 +1,0 @@
-package chapter6_1;
-
-public class SingleTon {
-	static SingleTon instance = new SingleTon();
-	private SingleTon() {}
-}

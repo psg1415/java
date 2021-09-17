@@ -1,5 +1,0 @@
-package chapter10_4;
-
-public class InterfaceEx implements C {
-
-}

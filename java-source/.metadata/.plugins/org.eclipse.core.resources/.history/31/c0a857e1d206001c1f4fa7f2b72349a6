@@ -1,9 +1,0 @@
-package chapter8_1;
-
-public class D extends C{
-	int numD = 10;
-	
-	D(){
-		System.out.println("D »ı¼ºÀÚ");
-	}
-}

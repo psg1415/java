@@ -1,9 +1,0 @@
-package chapter8_1;
-
-public class A {
-	int numA = 10;
-	
-	A(){
-		System.out.println("A »ı¼ºÀÚ");
-	}
-}

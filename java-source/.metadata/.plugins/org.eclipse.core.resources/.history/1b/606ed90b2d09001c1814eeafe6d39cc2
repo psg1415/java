@@ -1,7 +1,0 @@
-package chapter9;
-
-public abstract class Computer {
-	abstract void monitor();
-	abstract void keyboard();
-	abstract void cpu();
-}

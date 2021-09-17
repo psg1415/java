@@ -1,8 +1,0 @@
-package chapter9_3;
-
-public abstract class PlayerLevel {
-	void run();
-	void jump();
-	void turn();
-	void showLevelMessage();
-}

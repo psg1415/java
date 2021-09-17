@@ -4,7 +4,6 @@
     <fullyQualifiedTypeName name="chapter8_1.Eagle"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
     <fullyQualifiedTypeName name="chapter8_2.ClassEx1"/>
-    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
     <fullyQualifiedTypeName name="chapter12_3.linkedlist.MemberLinkedList"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="chapter12_3.Member"/>
@@ -20,4 +19,6 @@
     <fullyQualifiedTypeName name="chapter6_3.StudentTest"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="chapter10_4.Ex1"/>
+    <fullyQualifiedTypeName name="java.lang.ReflectiveOperationException"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
 </qualifiedTypeNameHistroy>

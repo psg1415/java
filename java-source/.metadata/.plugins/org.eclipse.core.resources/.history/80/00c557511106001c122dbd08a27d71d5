@@ -1,7 +1,0 @@
-package chapter7_1;
-
-public class ArrayEx2 {
-	public statci void main(Stringp[]args) {
-		Book[]library = new Book[5];
-	}
-}

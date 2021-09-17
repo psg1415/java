@@ -1,7 +1,0 @@
-package chapter8_1;
-
-public class extendsTest2 {
-	public static void main(String[]args) {
-		D d = new D();
-	}
-}

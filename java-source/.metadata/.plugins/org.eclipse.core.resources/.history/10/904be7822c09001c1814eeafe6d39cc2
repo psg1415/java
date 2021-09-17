@@ -1,5 +1,0 @@
-package chapter9;
-
-public class AbstractEx1 {
-	abstract int getNumber(int num);
-}
