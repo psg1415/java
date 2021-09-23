@@ -1,10 +1,10 @@
 package chapter11_6;
 
 public class Ex1 {
-	public static void main(String[] args) throws ClassNotFoundException {
-		/**
-		 * 1. Object 클래스 - getClass()
-		 * 2. 모든 클래스에는 정적 변수 -> class -> Class 인스턴스 반환
+	public static void main(String[] args) throws ClassNotFoundException  {
+		/** 
+		 * 1. Object 클래스 - getClass() 
+		 * 2. 모든 클래스에는 정적 변수 -> class -> Class 인스턴스 반환 
 		 */
 		Book book = new Book("책1", 20000);
 		Class cls = book.getClass();
