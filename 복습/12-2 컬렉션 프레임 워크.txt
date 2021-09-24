@@ -28,10 +28,22 @@ Collection 인터페이스
 
 Map 인터페이스
 (Key - Value 쌍의 자료 구조)
-key -> Value를 찾기 위한 데이터
-key -> 유일한 값(Set 자료형(집합))
+Key -> Value를 찾기 위한 데이터
+Key -> 유일한 값(Set 자료형(집합))
 
 Value -> 중복 -> Collection
+Map -> Iterator -> X (순회 반복 할 수 있는 자체 메서드가 없다.)
+	      (Collection 인터페이스에 정의)
+
+	- HashMap
+			- V put(K , V)
+			- get(Object key)
+			- remove(Object key)
+
+	- TreeMap  - HashMap + 정렬
+	- Hashtable - Properies
+
+
 
 
 
